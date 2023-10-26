@@ -475,7 +475,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-button">
-          <svg class="modal-button-icon" width="24" height="24">
+          <svg class="modal-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-buttom"></use>
           </svg>
         </button>
@@ -490,7 +490,7 @@
             <div class="modal-input-wrap">
             <input type="text" name="user-name" class="modal-input" required 
             id="user-name"/>
-            <svg class="modal-icon" width="18" height="18">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-name-person"></use>
             </svg>
           </div>
@@ -513,7 +513,7 @@
           <div class="modal-input-wrap">
           <input type="tel" name="user-phone" class="modal-input" required 
             id="user-phone"/>
-            <svg class="modal-icon" width="18" height="18">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-modal-phone"></use>
             </svg>
           </div>
@@ -530,20 +530,22 @@
             <div class="modal-input-wrap">
             <input type="email" name="user-email" class="modal-input" 
             id="user-email"/>
-          <svg class="modal-icon" width="18" height="18">
+          <svg class="modal-icon" width="18" height="24">
             <use href="./images/icons.svg#icon-modal-email"></use>
           </svg>
           </div>
           </div>
 
-          <div class="modal-field">
-          <label for="feedback" class="modal-label"
+
+          <!-- 4 section -->
+          <div class="modal-field-comment">
+          <label for="user-comment" class="modal-label"
             >Comment</label>
             <textarea
               class="modal-comment"
-              name="feedback"
+              name="user-comment"
               placeholder="Text input"
-              id="feedback"
+              id="user-comment"
             ></textarea>
           </div>
           <button type="submit" class="modal-button-submit">Send</button>
