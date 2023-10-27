@@ -788,24 +788,32 @@ margin-bottom: 4px;
 .footer-form-title {
   font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
 }
 .footer-form {
+  display: flex;
+  gap: 24px;
 }
 .footer-email {
   width: 264px;
 height: 40px;
 border-radius: 4px;
 border: 1px solid  #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 background-color: transparent;
 color: #ffffff;
 padding: 8px 16px;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.footer-email-window {
+
 }
 
 .footer-email::placeholder {
@@ -816,29 +824,25 @@ letter-spacing: 0.48px;
 }
 
 .footer-form-button {
-  display: block;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 padding: 8px 24px;
 gap: 16px;
+border: none;
 border-radius: 4px;
-background:  #4D5AE5;
+background-color:  #4D5AE5;
 width: 165px;
 height: 40px;
-}
-
-
-font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  background-color: var(--primary-brand);
-  color: var(--white-background);
-  font-weight: 500;
+font-size: 16px;
+font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
-  padding: 16px 32px;
-  margin: 0 auto;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.footer-button-icon {
+  margin-left: 16px;
+}
