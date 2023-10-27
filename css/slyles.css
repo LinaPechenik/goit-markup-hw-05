@@ -764,15 +764,47 @@ margin-bottom: 4px;
   height: 56px;
   border: none;
   border-radius: 4px;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
+
+
+
+.privacy-block {
+  margin-bottom: 24px;
+}
+.checkbox-input {
+  gap: 8px;
+}
+.privacy-label {
+  cursor: pointer;
+  font-size: 12px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.04em;
+columns: var(--subtle-text);
+}
+.privacy-rules-page {
+  color: var(--primary-brand);
+}
+.modal-button-submit {
+}
+
+
+
+
+
+
+
+
+
 
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+
 
 
 

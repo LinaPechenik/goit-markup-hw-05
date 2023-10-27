@@ -488,7 +488,7 @@
     </footer>
 
 
-    <div class="backdrop <!--is-open-->">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-button">
           <svg class="modal-button-icon" width="8" height="8">
@@ -564,6 +564,13 @@
               id="user-comment"
             ></textarea>
           </div>
+
+          <div class="privacy-block">
+            
+              <input class="checkbox-input" type="checkbox" name="user-privacy" value="true" id="user-privacy" visually-hidden>
+            <label class="privacy-label" for="user-privacy">I accept the terms and conditions of the <a class="privacy-rules-page" href="">Privacy Policy</a></label>
+          </div>
+
           <button type="submit" class="modal-button-submit">Send</button>
         </form>
       </div>
